@@ -8,7 +8,7 @@ def contador (lista):
     return cont
 
 
-class contador_de_letras(unittest.TestCase):
+class contador_de_palabras(unittest.TestCase):
     def test_contador(self):
         resultado = contador
         self.assertEqual (resultado,(contador))
